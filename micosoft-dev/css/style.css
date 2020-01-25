@@ -1,0 +1,76 @@
+.image-logo{
+    height: 40px;
+    width: 40px;
+}
+
+.navbar-toggler span {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 1px;
+    width: 22px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    left: 0;
+    opacity: 1;
+}
+.navbar-brand{
+    color: #000000;
+    font-size: 1.3rem;
+}
+.nav{
+    color:rgba(0, 0, 0, 0.6);
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+.small-search{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.nav-link{
+    color: #000000;
+}
+.list-style{
+    list-style: none;
+}
+.area{
+    left: -200px;
+ }
+ .dropdown-menu ul{
+     list-style: none;
+ }
+ .dropdown-menu{
+     left: -1000px;
+     background-color: #e9e3e3;
+     margin:0 !important;
+     padding:0 !important;
+     border-bottom: 1px solid;
+ }
+ .dropdown li {
+     padding-bottom: 20px;
+ }
+ .dropdown li a{
+     color: #000000;
+ }
+ .list-head{
+     padding-bottom: 30px !important;
+ }
+ .sitemap{
+     background-color: #afadad;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-bottom: 1px solid;
+ }
+.dropdown-menu li a:hover{
+    text-decoration: underline;
+}
+
+#soft-list a.collapsed i::before {
+    content: "\f107" !important;
+}
+.nav-link i {
+    position: absolute;
+    right: 20px;
+}
